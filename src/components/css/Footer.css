@@ -1,0 +1,26 @@
+.footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 40px 0;
+}
+
+.footer__title {
+   color: #ffffff;
+   font-family: Roboto;
+   font-size: 25px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+.footer__text {
+   color: #cdcdcd;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.footer__link {
+   text-decoration: underline;
+   color: #cdcdcd;
+}

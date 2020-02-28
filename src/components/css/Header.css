@@ -1,0 +1,22 @@
+.header {
+   background-color: #4375d7;
+}
+
+.header__nav {
+   display: flex;
+   padding: 10px 0;
+}
+
+.header__logo {
+   width: 45px;
+}
+
+.header__slogan {
+   color: #ffffff;
+   font-family: "Alegreya Sans SC";
+   font-size: 25px;
+   font-weight: 900;
+   display: flex;
+   align-items: center;
+   margin-left: 31px;
+}

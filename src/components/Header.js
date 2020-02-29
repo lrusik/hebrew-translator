@@ -7,7 +7,10 @@ function Header(props) {
       <div className="header">
          <div className="container">
             <div className="header__nav">    
-               <img className="header__logo" src={logo} alt="Logo"/>  
+               <div className="header__logo">
+                  <img className="header__img" src={logo} alt="Logo"/>  
+                  <div className="header__text">Nikdat</div>
+               </div>
                <span className="header__slogan">Hebrew translator with vowels</span>
             </div>
          </div>

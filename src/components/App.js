@@ -8,13 +8,13 @@ import Main from "./Main";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="content">
         <Header />
         <div className="container">
           <Main />
         </div>
         <Footer />
-      </React.Fragment>
+      </div>
     );
   }
 }

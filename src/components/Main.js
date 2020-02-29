@@ -21,14 +21,26 @@ export class Main extends Component {
    
    render() {
     return (
-      <div className="pretextarea">
-         <div className="textarea__item">
-            <TextareaAutosize className="textarea" placeholder="Placholder"/>
+      <div>
+         <div className="textarea-header">
+            <div className="textarea-header__item">
+               <div className="textarea-header__selector">Translate from
+                  <div className="textarea-header__options">
+                     <div className="textarea-header__option">Something</div>
+                     <div className="textarea-header__option">Something else</div>
+                     <div className="textarea-header__option">Something</div>
+                  </div>
+               </div>
+               
+            </div>
          </div>
-         <div className="textarea__item">
-            <p className="textarea textarea__output">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione odio blanditiis suscipit, error id, temporibus eius, nam magnam laudantium illum atque repudiandae fugiat incidunt quasi porro necessitatibus. Perferendis impedit tenetur nisi, deserunt sint, ipsa culpa saepe reiciendis enim molestiae, fuga officia officiis voluptatibus amet distinctio repudiandae. Voluptatum laudantium ullam nobis iste maxime rerum, non nisi repellendus tenetur magnam harum aut consequatur excepturi debitis sunt impedit atque expedita dolorum deleniti aspernatur maiores minus enim voluptatem! Dolor adipisci culpa placeat, voluptas reiciendis vel, quisquam soluta nihil minima aut ex. Optio ullam ad doloremque eaque, dicta quasi autem provident deleniti aliquid quaerat?
-            </p>
+         <div className="pretextarea">
+            <div className="textarea__item">
+               <TextareaAutosize className="textarea" placeholder="Type here"/>
+            </div>
+            <div className="textarea__item">
+               <p className="textarea textarea__output"></p>
+            </div>
          </div>
       </div>
     )

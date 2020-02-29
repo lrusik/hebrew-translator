@@ -1,5 +1,6 @@
 .pretextarea {
    display: flex;
+   padding-bottom: 200px;
 }
 
 .textarea__item {
@@ -11,15 +12,94 @@
    overflow: hidden;
    border: 1px solid #cfcfcf;
    resize: none;
-   font-size: 16px;
+   font-size: 18px;
    background-color: #f0f0f0;
    color: black;
    display: block;
    min-height: 150px;
-   line-height: 18px;
    padding: 10px;
 }
 
 .textarea__output {
-   transform: translateX(-1px);
+   border-left: none;
+}
+
+.textarea-header {
+   width: 100%;
+   position: relative;
+   background-color: #f0f0f0;
+}
+
+.textarea-header:before,
+.textarea-header:after {
+   display: block;
+   content: "";
+   height: 100%;
+   width: 1px;
+   background-color: #cfcfcf;
+   position: absolute;
+   left: 1;
+   top: 0;
+} 
+
+.textarea-header:after {
+   right: 0px;
+}
+
+.textarea-header__item {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;   
+}
+
+.textarea-header__selector {
+   position: relative;
+   font-size: 16px;
+   color: #4375d7;
+   padding: 17px 0;
+}
+
+.textarea-header__selector:after {
+   position: absolute;
+   display: block;
+   content: "";
+
+   width: 0; 
+   height: 0; 
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   
+   border-top: 6px solid #4375d7;
+   right: -17px;
+   top: 50%;
+}
+
+.textarea-header__options {
+   display: none;
+   position: absolute;
+   top: 40px;
+   left: 55%;
+   transform: translateX(-50%);
+   background-color: #f0f0f0;
+   width: 200px;
+   color: black;
+   max-height: 40vh;
+   font-size: 15px;
+}
+
+.textarea-header__option:hover {
+   background-color: rgba(67,117,215, .4);
+   cursor: pointer;
+}
+
+.textarea-header__option {
+   transition: background .2s;
+   padding: 13px;
+   border: 1px solid #cfcfcf;
+   border-bottom: none;
+}
+
+.textarea-header__option:last-child {
+   border-bottom: 1px solid #cfcfcf;
 }

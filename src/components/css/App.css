@@ -1,6 +1,6 @@
 *{margin:0;padding:0;border:0;}
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-:focus,:active{outline:none !important;}
+
 a:focus,a:active{outline:none !important;}
 input:focus,input:active{outline:none !important;}
 nav,footer,header,aside{display:block;}
@@ -21,4 +21,12 @@ img{vertical-align:top;}
    max-width: 1440px;
    width: 100%;
    padding: 0 70px;
+}
+
+.content {
+   position: relative;
+   display: block;
+   height: 100%;
+   width: 100%;
+   min-height: 100vh;
 }

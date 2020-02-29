@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Main from "./Main";
 
+//nikdat
 class App extends Component {
   render() {
     return (

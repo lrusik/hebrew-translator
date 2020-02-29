@@ -9,6 +9,7 @@
 
 .header__logo {
    width: 45px;
+   filter: invert(1);
 }
 
 .header__slogan {

@@ -103,3 +103,7 @@
 .textarea-header__option:last-child {
    border-bottom: 1px solid #cfcfcf;
 }
+
+#translated {
+   direction: rtl;
+}

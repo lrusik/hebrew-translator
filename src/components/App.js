@@ -6,6 +6,7 @@ import Main from "./Main";
 
 //nikdat
 class App extends Component {
+  
   render() {
     return (
       <div className="content">

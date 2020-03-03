@@ -5,11 +5,10 @@ function Footer(props) {
    return (
       <div className="footer">
          <p className="footer__title">Nikdat</p>
-         <p className="footer__text">This is a non profitable website that uses <a href="https://translate.google.com/" className="footer__link">Google Translate</a> and <a href="https://nakdan.morfix.co.il/" className="footer__link">Nakdan Morfix</a>.
-         </p>
+         <p className="footer__text">One of the most challenging things in Hebrew is that you don't have any vowels.<br></br>
+         And Nikdat is the right tool to fix it</p>
       </div>
    )
 }
 
 export default Footer
-

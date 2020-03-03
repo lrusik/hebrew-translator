@@ -1,8 +1,16 @@
 .pretextarea {
-   display: flex;
    padding-bottom: 200px;
 }
 
+.textareas {
+   display: flex;
+}
+
+.translate-button {
+   padding: 10px;
+   font-size: 18px;
+   margin-top: 10px;
+}
 .textarea__item {
    width: 50%;
 }
@@ -16,7 +24,7 @@
    background-color: #f0f0f0;
    color: black;
    display: block;
-   min-height: 150px;
+   min-height: 300px;
    padding: 10px;
 }
 

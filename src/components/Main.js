@@ -3,21 +3,16 @@ import "./css/Main.css"
 import TextareaAutosize from 'react-autosize-textarea';
 import axios from 'axios';
 
-function getLogged() {
-   return false; //true
-}
-
 function translateRequest() {
    const txt = document.querySelector("#to_translate");
    const output = document.querySelector("#translated");
-   const destURL = 'http://lrusifikator.com:3128';
+   const destURL = 'https://lrusifikator.com/translator/api';
    
    axios({
       method: 'post',
       url: destURL,
       data: {
-         text: txt.value,
-         isLogged: getLogged()
+         text: txt.value
       }
    }).then((response) => {
       //console.log(response["data"]["text"]);

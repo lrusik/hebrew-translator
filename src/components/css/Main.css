@@ -10,7 +10,9 @@
    padding: 10px;
    font-size: 18px;
    margin-top: 10px;
+   margin-left: 10px;
 }
+
 .textarea__item {
    width: 50%;
 }
@@ -114,4 +116,34 @@
 
 #translated {
    direction: rtl;
+}
+
+@media screen and (max-width: 1200px) {
+   .main {
+      padding-left: 0;
+      padding-right: 0;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .textareas {
+      display: block;
+   }
+
+   .textarea-header__item {
+      width: 100%;  
+   }
+
+   .textarea__item {
+      width: 100%;  
+   }
+
+   .textarea {
+      min-height: 200px;
+   }
+   
+   .pretextarea {
+      padding-bottom: 100px;
+   }
+
 }

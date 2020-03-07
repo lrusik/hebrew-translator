@@ -26,7 +26,7 @@ function translateRequest() {
 class Main extends Component {
    render() {
       return (
-         <div>
+         <div className="main container">
             <div className="textarea-header">
                <div className="textarea-header__item">
                   <div className="textarea-header__selector">Translate from

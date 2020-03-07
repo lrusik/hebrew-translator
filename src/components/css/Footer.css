@@ -17,14 +17,25 @@
 }
 
 .footer__text {
-   color: #cdcdcd;
+   color: #c0c0c0;
    font-family: Roboto;
    font-size: 16px;
    font-weight: 400;
    line-height: 20px;
+   padding: 0 20px;
 }
 
 .footer__link {
    text-decoration: underline;
    color: #cdcdcd;
+}
+
+@media screen and (max-width: 600px) {
+   .footer {
+      position: static;
+   }
+   
+   .footer__text {
+      font-size: 13px;
+   }
 }

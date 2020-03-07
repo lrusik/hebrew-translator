@@ -32,3 +32,9 @@
    align-items: center;
    margin-left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+   .header__slogan {
+      font-size: 22px;
+   }
+}

@@ -1,0 +1,134 @@
+.langmenu {
+   position: absolute;
+   display: none;
+   width: 100%;
+   content: "";
+   z-index: 100;
+   left: 0;
+   top: 0;
+   font-size: 18px;
+   background-color: #fff;
+}
+
+.langmenu__search {
+   display: flex;
+   border: 1px solid #cfcfcf;
+}
+
+.langmenu__bar {
+   width: 100%;
+   font-size: 18px;
+   line-height: 50px;
+   padding-left: 10px;
+   letter-spacing: .6px;
+}
+
+.langmenu__btn {
+   width: 60px;
+   display: block;
+   content: "";
+   border: none;
+   background-color: none;
+   cursor: pointer;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.langmenu__content {
+   border: 1px solid #cfcfcf;
+   padding: 10px 20px;
+}
+
+.close-btn {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   height: 50px;
+   opacity: 0.3;
+   border-right: 1px solid #cfcfcf;
+}
+
+.close-btn:hover {
+   opacity: .5;
+}
+
+.close-btn:before, .close-btn:after {
+   position: absolute;
+   left: 27px;
+   top: 13px;
+   content: ' ';
+   height: 23px;
+   width: 2px;
+   background-color: black;
+}
+
+.close-btn:before {
+   transform: rotate(45deg);
+}
+.close-btn:after {
+   transform: rotate(-45deg);
+}
+
+.search-btn {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   height: 50px;
+   opacity: 0.3;
+   border-left: 1px solid #cfcfcf;
+}
+
+.search-btn:hover {
+   opacity: .5;
+}
+
+.search-btn:before, .search-btn:after {
+   position: absolute;
+   content: ' ';
+   background-color: black;
+}
+
+.search-btn:before {
+   left: 17px; /* 12 */
+   top: 14px; /* 9 */
+   
+   height: 15px;
+   width: 15px;
+   border: 2px solid black;
+   border-radius: 50%;
+   background: none;
+}
+
+.search-btn:after {
+   left: 32px; /* 26 */
+   top: 24px; /* 19 */
+   
+   height: 11px;
+   width: 2px;
+   transform: rotate(-45deg);
+}
+
+.langmenu__content {
+   max-height: 400px;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.langmenu__item {
+   cursor: pointer;
+   font-size: 16px;
+   padding: 8px 0 8px 30px;
+   color: black;
+   display: inline-block;
+   width: 16.666666667%;
+}
+
+.langmenu__item:hover {
+   background-color: #f0f0f0;
+}
